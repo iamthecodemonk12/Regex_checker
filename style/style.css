@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: auto auto;
+}
+
+.box-container {
+    border: 2px solid red;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.top-box {
+    margin-top: 20px;
+}
+
+span {}
+
+.top-box>input {
+    width: 80%;
+}
+
+.task-container {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+}
+
+.task-container>.task-box {
+    background: green;
+    padding: 20px;
+    margin: 10px;
+    width: 20%;
+}
+
+.container {
+    border: 1px solid lightgreen;
+    width: 30%;
+    margin-top: 10%;
+}
+
+.select-container {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
